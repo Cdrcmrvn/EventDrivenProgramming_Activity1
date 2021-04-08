@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    background-color: #235789;
+    overflow: hidden;
+    transition: .8s;
+}
+div.top h1{
+    float: left;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 5px;
+    color: #FDFFFC;
+    font-family: 'Lalezar';
+    font-size: 50px;
+}
+div.top ul {
+    padding: 0;
+    float: right;
+    margin-right: 10%;
+}
+div.top ul li{
+    color: #FDFFFC;
+    position: relative;
+    display: inline-block;
+    list-style: none;   
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Cabin-Condensed';
+    font-size: 15px;
+}
+div.top ul li button{
+    position: relative;
+    color: #FDFFFC;
+    background-color: #235789;
+    padding: 5px 5px 5px 5px;
+    font-family: 'Cabin-Condensed';
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #020100;
+
+}
+.top ul li button:hover{
+    color: #F1D302;
+}
+div.top a{
+    color: #FDFFFC;
+    position: absolute;
+    top: 70%;
+    left: 78%;
+    font-family: 'Cabin-Condensed';
+    font-size: 15px;
+    text-decoration: none;
+}
+.top a:hover{
+    color: #ED1C24;
+    text-decoration: underline;
+}
+body{
+    background-color: #FDFFFC;
+}
+.leftside{
+    position: absolute;
+    top: 13%;
+    left: 10%;
+    font-size: 25px;
+    width: 50%;
+    font-family: 'Cabin-Condensed';
+    font-weight: bold;
+}
+.rightside{
+    position: absolute;
+    float: right;
+    top: 13%;
+    right: 10%;
+    width: 30%;
+}
+.rightside h1{
+    margin-bottom: 10px;
+    font-family: 'Cabin-Condensed';
+    font-weight: bold;
+    font-size: 55px;
+}
+.rightside form.form1 input{
+    margin: 10px 0px 10px 0px;
+    padding: 5px 5px 5px 5px;  
+    border-radius: 4px;
+    border: 1px solid;
+    font-family: 'Cabin-Condensed';
+    font-size: 18px;
+}
+.rightside form.form2 input{
+    margin: 0px 0px 10px 0px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    border: 1px solid;
+    font-family: 'Cabin-Condensed';
+    font-size: 18px;   
+}
+.rightside p.p1{
+    margin: 10px 0px 10px 0px;
+    font-family: 'Cabin-Condensed';
+    font-size: 18px;
+}
+.rightside p.p0{
+    font-family: 'Cabin-Condensed';
+    font-size: 20px;
+}
+.rightside p.p2{
+    font-family: 'Cabin-Condensed';
+    font-size: 17px;
+}
+.rightside button{
+    padding: 5px 30px 5px 30px;
+    position: relative;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: 'Cabin-Condensed';
+    font-size: 20px;
+    background-color: #F1D302;
+    border: 1px solid;
+    border-radius: 4px;
+}
+.rightside button:hover{
+    color: #FDFFFC;
+}
+.rightside form.form3{
+    font-family: 'Cabin-Condensed';
+    font-size: 18px;
+}
+.rightside form.form3 ul li{
+    margin: 10px 0px 10px 10px;
+    list-style: none;
+    display: inline-block;
+ 
+}
+img.fbnetwork{
+    position:relative;
+    height: 400px;
+    width: 900px;
+    right: 5%;
+    margin-top: 5%;
+}
+p.p1 a{
+    text-decoration: none;
+}
+p.p2 a{
+    text-decoration: none;
+    
+}
+p.p1 a:hover{
+    color: #ED1C24;
+    text-decoration: underline;
+}
+p.p2 a:hover{
+    color: #ED1C24;
+    text-decoration: underline;
+}
